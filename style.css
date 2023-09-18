@@ -3,14 +3,12 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
-/* Background color and default font for the entire page */
 body {
     background-color: #fff;
     font-family: Arial, sans-serif;
     color: #333;
 }
 
-/* Header and navigation style */
 header {
     background-color: #7bdcb5;
     color: #fff;
@@ -21,23 +19,26 @@ header {
 nav ul {
     display: flex;
     flex-direction: column;
-    /* Stack items vertically */
     align-items: center;
-    /* Horizontally center the items */
     list-style-type: none;
 }
 
 nav ul li {
     margin-bottom: 10px;
-    /* Vertical space between items */
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
 }
 
-/* Welcome section style */
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .welcome {
     background-color: #7bdcb5;
     text-align: center;
@@ -46,7 +47,6 @@ nav a {
     position: relative;
 }
 
-/* This hides the map image by default */
 .welcome img {
     display: none;
     position: absolute;
@@ -59,12 +59,10 @@ nav a {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Only Display Map Image when Hovering over the Trigger */
 .welcome .map-trigger:hover+img {
     display: block;
 }
 
-/* Amenities section style */
 .amenities {
     display: flex;
     flex-direction: column;
@@ -90,7 +88,7 @@ nav a {
     border-radius: 5px;
 }
 
-/* Adjust navigation for larger screens */
+/* Faster / Better Styles and Layout */
 @media screen and (min-width: 768px) {
     nav ul {
         flex-direction: row;
@@ -101,11 +99,10 @@ nav a {
         margin-bottom: 0;
     }
 
-    /* Adjust amenities for larger screens */
     .amenities {
         flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
+         flex-wrap: wrap;
     }
 
     .amenity {
