@@ -1,0 +1,114 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background color and default font for the entire page */
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header and navigation style */
+header {
+    background-color: #7bdcb5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Horizontally center the items */
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    /* Vertical space between items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Welcome section style */
+.welcome {
+    background-color: #7bdcb5;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+}
+
+/* This hides the map image by default */
+.welcome img {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Only Display Map Image when Hovering over the Trigger */
+.welcome .map-trigger:hover+img {
+    display: block;
+}
+
+/* Amenities section style */
+.amenities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #7bdcb5;
+}
+
+.amenity {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 90%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.amenity img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Adjust navigation for larger screens */
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    /* Adjust amenities for larger screens */
+    .amenities {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .amenity {
+        margin: 20px;
+    }
+}
