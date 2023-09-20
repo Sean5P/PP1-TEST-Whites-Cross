@@ -88,7 +88,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* Faster / Better Styles and Layout */
+/* Faster Bettr Styles & Layout */
 @media screen and (min-width: 768px) {
     nav ul {
         flex-direction: row;
@@ -102,7 +102,7 @@ nav a:hover {
     .amenities {
         flex-direction: row;
         justify-content: space-between;
-         flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .amenity {
