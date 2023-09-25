@@ -1,17 +1,29 @@
-body, h1, h2, h3, p, ul, li {
+:root {
+    --primary-bg-color: #7bdcb5;
+    --primary-text-color: #fff;
+    --secondary-text-color: #333;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--primary-bg-color);
     font-family: Arial, sans-serif;
-    color: #333;
+    color: var(--secondary-text-color);
 }
 
 header {
-    background-color: #7bdcb5;
-    color: #fff;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
     padding: 10px 0;
     text-align: center;
 }
@@ -29,7 +41,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-text-color);
     padding: 5px 10px;
     border-radius: 4px;
     transition: background-color 0.2s;
@@ -40,9 +52,9 @@ nav a:hover {
 }
 
 .welcome {
-    background-color: #7bdcb5;
+    background-color: var(--primary-bg-color);
     text-align: center;
-    color: #fff;
+    color: var(--primary-text-color);
     padding: 100px 0;
     position: relative;
 }
@@ -73,7 +85,7 @@ nav a:hover {
 }
 
 .amenity {
-    background-color: #fff;
+    background-color: var(--primary-text-color);
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
@@ -88,10 +100,31 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* Faster Bettr Styles & Layout */
+footer {
+    padding: 20px 0;
+    background-color: var(--primary-bg-color);
+    text-align: center;
+}
+
+.amenity {
+    background-color: var(--primary-text-color);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    /* Centering the boxes */
+    width: 90%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Responsive styles */
 @media screen and (min-width: 768px) {
     nav ul {
         flex-direction: row;
+        justify-content: center;
+        /* center nav items */
     }
 
     nav ul li {
@@ -100,7 +133,7 @@ nav a:hover {
     }
 
     .amenities {
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
