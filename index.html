@@ -63,32 +63,35 @@
         <section class="contact">
             <h2 id="contact">Contact & Feedback</h2>
             <p>If you have any questions or suggestions, please feel free to reach out to us.</p>
-
-            <!-- Contact form here -->
+    
+            <!-- Contact form starts here -->
             <form action="/submit" method="post" onsubmit="return validateForm()">
+                <!-- ... (rest of the input fields) -->
+    
+                <p>Reason for Contact:</p>
+                <label><input type="checkbox" name="reason" value="subscribe"> Subscribe</label>
+                <label><input type="checkbox" name="reason" value="advertise"> Advertise</label>
+                <label><input type="checkbox" name="reason" value="complain"> Complain</label>
+                <label><input type="checkbox" name="reason" value="other"> Other</label>
+    
                 <label>
-                    First Name*:
-                    <input type="text" name="first_name" required>
+                    <input type="checkbox" name="terms" required> Accept T&Cs
                 </label>
                 <label>
-                    Last Name*:
-                    <input type="text" name="last_name" required>
+                    <input type="checkbox" name="gdpr" required> Accept GDPR
                 </label>
+    
+                <!-- Simple CAPTCHA -->
                 <label>
-                    eMail:
-                    <input type="email" name="email" id="email">
+                    What is 5 + 5? (Prove you're human)
+                    <input type="text" name="captcha" id="captcha">
                 </label>
-                <label>
-                    Phone:
-                    <input type="tel" name="phone" id="phone">
-                </label>
-                <!-- ... (rest of the form) -->
-
+    
                 <input type="submit" value="SUBMIT">
             </form>
         </section>
     </footer>
-
+    
     <script>
         function validateForm() {
             // Either eMail or Phone validation
