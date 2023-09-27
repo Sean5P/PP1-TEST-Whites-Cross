@@ -62,23 +62,55 @@
     <footer>
         <section class="contact">
             <h2 id="contact">Contact & Feedback</h2>
-            <p>
-                If you have any questions or suggestions, please feel free to reach out to us.
+            <p>If you have any questions or suggestions, please feel free to reach out to us.</p>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+            <!-- Contact form here -->
+            <form action="/submit" method="post" onsubmit="return validateForm()">
+                <label>
+                    First Name*:
+                    <input type="text" name="first_name" required>
+                </label>
+                <label>
+                    Last Name*:
+                    <input type="text" name="last_name" required>
+                </label>
+                <label>
+                    eMail:
+                    <input type="email" name="email" id="email">
+                </label>
+                <label>
+                    Phone:
+                    <input type="tel" name="phone" id="phone">
+                </label>
+                <!-- ... (rest of the form) -->
 
-                This is where Contact & Feedback Form Goes
-
-            </p>
-            <!-- Contact form here (If not on dedicated page?)-->
+                <input type="submit" value="SUBMIT">
+            </form>
         </section>
     </footer>
+
+    <script>
+        function validateForm() {
+            // Either eMail or Phone validation
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+
+            if (!email && !phone) {
+                alert('Please fill out either the eMail or Phone field.');
+                return false;
+            }
+
+            // Simple CAPTCHA validation
+            const captcha = document.getElementById('captcha').value;
+            if (parseInt(captcha) !== 10) {
+                alert('Please Answer CAPTCHA Correctly.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
 </body>
 
 </html>
-
-
