@@ -58,6 +58,7 @@
         <section class="contact">
             <h2 id="contact">Contact & Feedback</h2>
             <p>If you have any questions or suggestions, please feel free to reach out to us.</p>
+       
             <form action="/submit" method="post" onsubmit="return validateForm()">
                 <label>
                     First Name*:
@@ -89,19 +90,24 @@
                 <label><input type="checkbox" name="reason" value="complain"> Complain</label>
                 <label><input type="checkbox" name="reason" value="other"> Other</label>
                 <br>
-                <label>
-                    <input type="checkbox" name="terms" required> Accept T&Cs
-                </label>
                 <br>
                 <label>
-                    <input type="checkbox" name="gdpr" required> Accept GDPR
-                </label>
-                <br>
-                <label>
-                    What is 5 + 5? (Prove you're human)
+                    What is 7 + 5? (Prove you're human)
                     <input type="text" name="captcha" id="captcha">
                 </label>
                 <br>
+
+                <div>
+<label>
+    <input type="checkbox" name="terms" required> Accept T&Cs
+</label>
+<br>
+<label>
+    <input type="checkbox" name="gdpr" required> Accept GDPR
+</label>
+
+                </div>
+
                 <input type="submit" value="SUBMIT">
             </form>
         </section>
