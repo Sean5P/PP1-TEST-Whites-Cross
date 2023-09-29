@@ -4,13 +4,7 @@
     --secondary-text-color: #333;
 }
 
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -20,7 +14,7 @@ body {
     font-family: Arial, sans-serif;
     color: var(--secondary-text-color);
     padding-top: 70px;
-    /* Adjusted for fixed header */
+    /* To Suit Fixed Header */
 }
 
 header {
