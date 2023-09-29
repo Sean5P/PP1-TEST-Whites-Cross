@@ -23,26 +23,23 @@
         <section class="about">
             <h1 id="about">WELCOME to Whites Cross</h1>
             <a href="#" class="map-trigger">MAP VIEW</a>
-            <img src="assets/images/wx-map1.jpg" alt="Map of Whites Cross">
+            <img src="assets/images/wx-map1.jpg" alt="Location Map">
             <p>All you need to know in one place.</p>
             <a href="whites-cross.html"><img src="assets/images/amenities1.jpg" alt="Amenities" class="discover-link">
             </a>
         </section>
 
-        <section class="discover">
+        <section class="discover" id="discover">
             <h2 id="discover">DISCOVER</h2>
-            <div class="amenity">
-                <img src="assets/images/amenity1montage.jpg" alt="Whites Cross Montage">
-                <h3 id="amenities">AMENITIES</h3>
-                <p>Whites Cross has, or is close to most Amenities as follows.</p>
-            </div>
+
             <div class="amenity">
                 <img src="assets/images/wx-gaa1.jpg" alt="Whites Cross GAA Club">
                 <h3>Whites Cross GAA Club</h3>
                 <p>A Sporting History Integral to the Community since 1957.</p>
             </div>
+
             <div class="amenity">
-                <img src="assets/images/wx-pub2.jpg" alt="Boothhouse Bar" />
+                <img src="assets/images/wx-pub2.jpg" alt="Boothhouse Bar">
                 <h3>The Boothouse Bar</h3>
                 <p>A Beautiful Local Pub.</p>
             </div>
@@ -58,32 +55,14 @@
         <section class="contact">
             <h2 id="contact">Contact & Feedback</h2>
             <p>If you have any questions or suggestions, please feel free to reach out to us.</p>
-       
+
             <form action="/submit" method="post" onsubmit="return validateForm()">
-                <label>
-                    First Name*:
-                    <input type="text" name="first_name" required>
-                </label>
-                <label>
-                    Last Name*:
-                    <input type="text" name="last_name" required>
-                </label>
-                <label>
-                    eMail:
-                    <input type="email" name="email" id="email">
-                </label>
-                <label>
-                    Phone:
-                    <input type="tel" name="phone" id="phone">
-                </label>
-                <label>
-                    Company Name:
-                    <input type="text" name="company_name">
-                </label>
-                <label>
-                    Comments:
-                    <textarea name="comments" maxlength="900"></textarea>
-                </label>
+                <label>First Name*:<input type="text" name="first_name" required></label>
+                <label>Last Name*:<input type="text" name="last_name" required></label>
+                <label>eMail:<input type="email" name="email" id="email"></label>
+                <label>Phone:<input type="tel" name="phone" id="phone"></label>
+                <label>Company Name:<input type="text" name="company_name"></label>
+                <label>Comments:<textarea name="comments" maxlength="900"></textarea></label>
                 <p>Reason for Contact:</p>
                 <label><input type="checkbox" name="reason" value="subscribe"> Subscribe</label>
                 <label><input type="checkbox" name="reason" value="advertise"> Advertise</label>
@@ -91,30 +70,20 @@
                 <label><input type="checkbox" name="reason" value="other"> Other </label>
                 <br>
                 <br>
-                <label>
-                    What is 7 + 5? (Prove you're human)
-                    <input type="text" name="captcha" id="captcha">
-                </label>
+                <label>What is 7 + 5? (Prove you're human)<input type="text" name="captcha" id="captcha"></label>
                 <br>
-
                 <div>
-<label>
-    <input type="checkbox" name="terms" required> Accept T&Cs
-</label>
-<br>
-<label>
-    <input type="checkbox" name="gdpr" required> Accept GDPR
-</label>
-
+                    <label><input type="checkbox" name="terms" required> Accept T&Cs</label>
+                    <br>
+                    <label><input type="checkbox" name="gdpr" required> Accept GDPR</label>
                 </div>
-
                 <input type="submit" value="SUBMIT">
             </form>
         </section>
     </footer>
 
     <!-- Top Link -->
-    <a href="#about-section" class="top-link">TOP</a>
+    <a href="#top" class="top-link">TOP</a>
 
     <script>
         function validateForm() {
@@ -125,7 +94,7 @@
                 return false;
             }
             const captcha = document.getElementById('captcha').value;
-            if (parseInt(captcha) !== 10) {
+            if (parseInt(captcha) !== 12) {
                 alert('Please Answer CAPTCHA Correctly.');
                 return false;
             }
