@@ -125,9 +125,36 @@ form textarea {
     background-color: #68c9a2;
 }
 
-/* Media Queries */
+/* Centering Flexbox Content */
+.row {
+    justify-content: center; /* Horizontally center flex items */
+    align-items: center;    /* Vertically center flex items */
+}
 
-@media screen and (min-width: 768px) {
+/* Centering Text in the nav */
+nav {
+    text-align: center;
+}
+
+/* Base styles for Mobile */
+body {
+    font-size: 16px;
+}
+
+nav ul {
+    flex-direction: column;
+}
+
+nav ul li {
+    margin-bottom: 10px;  /* Vertical space for mobile menu */
+}
+
+/* Adjust for Tablets and Smaller Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
     nav ul {
         flex-direction: row;
         justify-content: center;
@@ -145,49 +172,19 @@ form textarea {
     }
 
     .amenity {
-        width: 30%;
+        width: 48%; /* Allows two items per row */
         margin: 1%;
     }
 }
 
-/* Smartphone Styles */ 
-
-body {
-    font-size: 16px;
-   } 
-   
-   nav ul {
-    flex-direction: column;
-   } 
-   
-   /* Adjust for Tablets and Smaller Laptops */
-   @media (min-width: 768px) and (max-width: 1024px) {
-   
-   body {
-    font-size: 18px;
-   }
-   
-   nav ul {
-    flex-direction: row;
-   }
-   
-   .amenity {
-    width: 48%; /* Allows two items per row */
-   }
-   
-   }
-   
-   /* Adjust for Larger Desktops */
-   @media (min-width: 1025px) {
-   
+/* Adjust for Larger Desktops */
+@media (min-width: 1025px) {
     body {
-    font-size: 20px;
-   }
-   
-   .amenity {
-    width: 30%; /* Keeps 3 items per row */
-    } 
-   } 
-   
+        font-size: 20px;
+    }
 
-
+    .amenity {
+        width: 30%; /* Keeps 3 items per row */
+        margin: 1%;
+    }
+}
