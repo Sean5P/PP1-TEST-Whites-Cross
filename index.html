@@ -2,16 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Whites Cross : All you need to know</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
 
   <body id="top">
+
     <header>
-      <nav>
+     <nav aria-label="Primary navigation">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discover">Discover</a></li>
@@ -21,11 +20,15 @@
     </header>
 
     <main>
-      <section class="about">
-        <h1 id="about">WELCOME to Whites Cross</h1>
-        <p>Additional text here</p>
+
+  <section class="about" aria-labelledby="about-heading">
+    <h1 id="about-heading">WELCOME to Whites Cross</h1>    
         <p>All you need to know in one place.</p>
-      </section>
+        <p>Now a part of Cork City, but still very much in the Countryside, Whites Cross is a picturesque locality that embodies the charm and tranquility of the Irish countryside. Located just a short drive from Cork City centre, it offers visitors a delightful mix of rural serenity and easy access to the bustling urban life of one of Ireland's most dynamic cities.
+        </p>
+     </section>
+
+
 
       <section id="discover" class="discover">
         <h2>DISCOVER</h2>
@@ -36,29 +39,33 @@
             <p>A Sporting History Integral to the Community since 1957.</p>
           </div>
 
-          <div class="amenity">
-            <h3>The Boothouse Bar</h3>
-            <img src="assets/images/wx-pub2.jpg" alt="Boothhouse Bar" />
+<div class="amenity">
+    <h3>The Boothouse Bar</h3>
+    <img src="assets/images/wx-pub2.jpg" alt="Boothhouse Bar" />
+    <p>A Beautiful Local Pub.</p>
+    <a href="http://cars.ie" target="_blank" rel="noopener noreferrer" aria-label="Visit Cars.ie for more information">Visit Cars.ie</a>
+</div>
 
-            <p>A Beautiful Local Pub.</p>
-          </div>
 
           <div class="amenity">
             <h3>Hennesseys Shop & Fuel Station</h3>
-            <img
-              src="assets/images/wx-fuel1.jpg"
-              alt="Hennesseys Shop & Fuel Station"
-            />
+            <img src="assets/images/wx-fuel1.jpg" alt="Hennesseys Shop & Fuel Station" />
             <p>For you and your car's needs, right on the Cross.</p>
           </div>
         </div>
 
+
+
         <div class="row">
-          <div class="amenity">
-            <h3>Whites Cross GAA Club</h3>
-            <img src="assets/images/wx-gaa1.jpg" alt="Whites Cross GAA Club" />
-            <p>A Sporting History Integral to the Community since 1957.</p>
-          </div>
+          
+
+
+<div class="amenity">
+    <h3>Whites Cross GAA Club</h3>
+    <img src="assets/images/wx-gaa1.jpg" alt="Whites Cross GAA Club" />
+    <p>A Sporting History Integral to the Community since 1957.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a6SMbMjdDTE" title="Whites Cross GAA Club Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
           <div class="amenity">
             <h3>The Boothouse Bar</h3>
@@ -102,63 +109,36 @@
         </div>
       </section>
 
-      <section class="contact">
-        <h2 id="contact">Contact & Feedback</h2>
-        <p>
-          Please let us know if you've any questions, suggestions, feedback.
-        </p>
 
-        <form action="/submit" method="post" onsubmit="return validateForm()">
-          <label
-            >First Name*:<input type="text" name="first_name" required
-          /></label>
-          <label
-            >Last Name*:<input type="text" name="last_name" required
-          /></label>
-          <label>eMail:<input type="email" name="email" id="email" /></label>
-          <label>Phone:<input type="tel" name="phone" id="phone" /></label>
-          <label>Company Name:<input type="text" name="company_name" /></label>
-          <label
-            >Comments:<textarea name="comments" maxlength="900"></textarea>
-          </label>
-          <p>Reason for Contact:</p>
-          <label
-            ><input type="checkbox" name="reason" value="subscribe" />
-            Subscribe</label
-          >
-          <label
-            ><input type="checkbox" name="reason" value="advertise" />
-            Advertise</label
-          >
-          <label
-            ><input type="checkbox" name="reason" value="feedback" />
-            Feedback</label
-          >
-          <label
-            ><input type="checkbox" name="reason" value="other" /> Other
-          </label>
-          <br />
-          <br />
-          <label
-            >What is 7 + 5? (Prove you're human)<input
-              type="text"
-              name="captcha"
-              id="captcha"
-          /></label>
-          <br />
-          <div>
-            <label
-              ><input type="checkbox" name="terms" required /> Accept
-              T&Cs</label
-            >
+<section class="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact & Feedback</h2>
+    <p>
+        Please let us know if you've any questions, suggestions, feedback.
+    </p>
+    <form action="/submit" method="post" onsubmit="return validateForm()" aria-label="Contact and Feedback Form">
+        <label>First Name*: <input type="text" name="first_name" required /></label>
+        <label>Last Name*: <input type="text" name="last_name" required /></label>
+        <label>eMail: <input type="email" name="email" id="email" /></label>
+        <label>Phone: <input type="tel" name="phone" id="phone" /></label>
+        <label>Company Name: <input type="text" name="company_name" /></label>
+        <label>Comments: <textarea name="comments" maxlength="900"></textarea></label>
+        <p>Reason for Contact:</p>
+        <label><input type="checkbox" name="reason" value="subscribe" /> Subscribe</label>
+        <label><input type="checkbox" name="reason" value="advertise" /> Advertise</label>
+        <label><input type="checkbox" name="reason" value="feedback" /> Feedback</label>
+        <label><input type="checkbox" name="reason" value="other" /> Other</label>
+        <br />
+        <br />
+        <label>What is 7 + 5? (Prove you're human): <input type="text" name="captcha" id="captcha" aria-label="Human verification question: What is 7 + 5?" /></label>
+        <br />
+        <div>
+            <label><input type="checkbox" name="terms" required /> Accept T&Cs</label>
             <br />
-            <label
-              ><input type="checkbox" name="gdpr" required /> Accept GDPR</label
-            >
-          </div>
-          <input type="submit" value="SUBMIT" />
-        </form>
-      </section>
+            <label><input type="checkbox" name="gdpr" required /> Accept GDPR</label>
+        </div>
+        <input type="submit" value="SUBMIT" />
+    </form>
+</section>
     </main>
 
     <footer>
@@ -166,7 +146,8 @@
     </footer>
 
     <!-- Top Link -->
-    <a href="#top" class="top-link">TOP</a>
+
+<a href="#top" class="top-link" aria-label="Go to the top of the page">TOP</a>
 
     <script>
       function validateForm() {
@@ -186,3 +167,4 @@
     </script>
   </body>
 </html>
+
