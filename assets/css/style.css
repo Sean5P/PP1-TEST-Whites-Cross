@@ -148,6 +148,10 @@ form textarea {
     height: 100%;
 }
 
+iframe {
+    border: none;
+}
+
 /* Centering Flexbox Content */
 .row {
     justify-content: space-around;
