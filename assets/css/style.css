@@ -1,11 +1,16 @@
-
 :root {
     --primary-bg-color: #449c83;
     --primary-text-color: #fff;
     --secondary-text-color: #333;
 }
 
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -143,8 +148,10 @@ form textarea {
 
 /* Centering Flexbox Content */
 .row {
-    justify-content: space-around; /* Horizontally center flex items */
-    align-items: center;    /* Vertically center flex items */
+    justify-content: space-around;
+    /* Horizontally center flex items */
+    align-items: center;
+    /* Vertically center flex items */
 }
 
 /* Centering Text in the nav */
@@ -162,7 +169,8 @@ nav ul {
 }
 
 nav ul li {
-    margin-bottom: 10px;  /* Vertical space for mobile menu */
+    margin-bottom: 10px;
+    /* Vertical space for mobile menu */
 }
 
 /* Adjust for Tablets and Smaller Laptops */
@@ -188,7 +196,8 @@ nav ul li {
     }
 
     .amenity {
-        width: 48%; /* Allows two items per row */
+        width: 48%;
+        /* Allows two items per row */
         margin: 1%;
     }
 }
@@ -198,14 +207,16 @@ nav ul li {
     body {
         font-size: 20px;
     }
- 
-   .amenity {
-        width: 30%; /* Keeps 3 items per row */
-        margin: 1%;
+
+    .amenity {
+        width: 90%;
+        /* Keeps 3 items per row */
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
-     /* To Ensures Row Content is Centered */
-.row {
-    justify-content: center;
-}     
+    /* To Ensures Row Content is Centered */
+    .row {
+        justify-content: center;
+    }
 }
