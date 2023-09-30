@@ -150,4 +150,44 @@ form textarea {
     }
 }
 
+/* Smartphone Styles */ 
+
+body {
+    font-size: 16px;
+   } 
+   
+   nav ul {
+    flex-direction: column;
+   } 
+   
+   /* Adjust for Tablets and Smaller Laptops */
+   @media (min-width: 768px) and (max-width: 1024px) {
+   
+   body {
+    font-size: 18px;
+   }
+   
+   nav ul {
+    flex-direction: row;
+   }
+   
+   .amenity {
+    width: 48%; /* Allows two items per row */
+   }
+   
+   }
+   
+   /* Adjust for Larger Desktops */
+   @media (min-width: 1025px) {
+   
+    body {
+    font-size: 20px;
+   }
+   
+   .amenity {
+    width: 30%; /* Keeps 3 items per row */
+    } 
+   } 
+   
+
 
