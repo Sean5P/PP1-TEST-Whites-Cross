@@ -2,11 +2,9 @@
 
 ## Introduction
 
-The purpose of this website is to celebrate the heritage, culture, and significance of Whites Cross. It is intended to be a 1st Stop to find out, post, or advertise (FREE) anything to do with, what has, is, or about to take place in Whites Cross, or its surrounding Areas, while also providing visitors with a comprehensive guide, connecting them with the essence of Whites Cross,
+This website celebrates the heritage, culture, and significance of Whites Cross. It serves as a primary hub to find, post, or advertise (free of charge) information related to events, stories, or offerings connected to Whites Cross and its neighbouring areas.
 
 ### Portfolio Project 1 – Sean Kirwan
-
-There were a number of bugs (or issues) that I found very frustrating. Pretty sure the vast majority were down to my inexperience, forgetting to send code to git, and then losing it all.
 
 <img src="assets/images/wx-readme-multiscreen1.jpg">
 
@@ -30,19 +28,19 @@ Table of contents
 Strategy for "Whites Cross" Website
 The "Whites Cross" website was built to celebrate and preserve the rich heritage, culture, and significance of Whites Cross. Our main strategy revolves around establishing the website as the primary hub for locals and visitors alike, serving as their first port of call for any information, events, or activities related to Whites Cross and its neighbouring areas.
 
-The website is tailored to not only reminisce on the historical charm of Whites Cross but also to spotlight current happenings and future prospects. Local enthusiasts, event organisers, and businesses have a platform where they can post and advertise (at no cost) activities, stories, or offerings connected to the area.
+While also providing historical information, the main aim is to spotlight current happenings and future prospects in Whites Cross, and surrounding areas. Local enthusiasts, event organisers, and businesses have a platform where they can post and advertise (at no cost) activities, stories, or offerings connected to the area.
 
 Going forward, the site will offer an all-encompassing guide that immerses visitors in the very essence of Whites Cross. It will bridge the past with the present, as it moves from being a County Area to a City Suburb, ensuring the continuation and appreciation of Whites Cross's storied legacy.
 
 ## User Stories for "Whites Cross" Website
 
 ### Users:
-• I want to immerse myself in the heritage and culture of Whites Cross.
-• I'm eager to discover current events, historical tidbits, and future prospects related to Whites Cross.
+• I want to learn about the history of Whites Cross.
+• I want to be kept abreast of current events, historical tidbits, and future prospects related to Whites Cross.
 • I wish to post or advertise events, services, or offerings related to Whites Cross for free.
 • I seek an authoritative source that offers a panoramic view of Whites Cross and its surroundings.
 • I'm curious about the significance of Whites Cross in a broader context.
-• I intend to use this as my primary source of information before visiting or organizing events in the area.
+• I intend to use this as my primary source of information before visiting or organising events in the area.
 
 ### Site Owner:
 • I aim to champion and keep alive the rich cultural tapestry of Whites Cross.
@@ -69,7 +67,7 @@ Structure
 Home Page
 
 • Header Bar: with intuitive navigation links to "Discover" and "Contact".
-• Hero Image: A High-resolution Map image that shows Whites Cross proximity to Local Amenities etc.
+• Hero Image: Is a Map showing Whites Cross proximity to Local Amenities etc.
 • Heart of Whites Cross Section: Illustrating images coupled with insights about the heritage, culture, and significance of the location.
 • Footer: Integrated links to active social media platforms, connecting visitors to the broader Whites Cross community.
 
