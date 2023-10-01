@@ -8,13 +8,11 @@ This website celebrates the heritage, culture, and significance of Whites Cross.
 
 <img src="assets/images/wx-readme-multiscreen1.jpg">
 
-![wx-readme-multiscreen1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/7edf3619-0103-462a-9cbe-ad73b6aed101)
-
-## Project Repository
+Project Repository
 
 Live Site
 
-Table of contents
+## Table of contents
 
 1.	UX
 2.	Features
