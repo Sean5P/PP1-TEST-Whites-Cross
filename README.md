@@ -1,19 +1,16 @@
 # Whites Cross, Cork, Ireland
 
 ## Introduction
+
 The purpose of this website is to celebrate the heritage, culture, and significance of Whites Cross. It is intended to be a 1st Stop to find out, post, or advertise (FREE) anything to do with, what has, is, or about to take place in Whites Cross, or its surrounding Areas, while also providing visitors with a comprehensive guide, connecting them with the essence of Whites Cross,
 
 ### Portfolio Project 1 – Sean Kirwan
 
-
-
-
-
 There were a number of bugs (or issues) that I found very frustrating. Pretty sure the vast majority were down to my inexperience, forgetting to send code to git, and then losing it all.
 
-image.png
+<img src="assets/images/wx-readme-multiscreen1.jpg">
 
-Project Repository
+## Project Repository
 
 Live Site
 
@@ -27,7 +24,8 @@ Table of contents
 6.	Deployment
 7.	Credits
 8.	Acknowledgements
-UX
+
+### UX
 
 Strategy for "Whites Cross" Website
 The "Whites Cross" website was built to celebrate and preserve the rich heritage, culture, and significance of Whites Cross. Our main strategy revolves around establishing the website as the primary hub for locals and visitors alike, serving as their first port of call for any information, events, or activities related to Whites Cross and its neighbouring areas.
@@ -36,9 +34,9 @@ The website is tailored to not only reminisce on the historical charm of Whites 
 
 Going forward, the site will offer an all-encompassing guide that immerses visitors in the very essence of Whites Cross. It will bridge the past with the present, as it moves from being a County Area to a City Suburb, ensuring the continuation and appreciation of Whites Cross's storied legacy.
 
-User Stories for "Whites Cross" Website
+## User Stories for "Whites Cross" Website
 
-Users:
+### Users:
 • I want to immerse myself in the heritage and culture of Whites Cross.
 • I'm eager to discover current events, historical tidbits, and future prospects related to Whites Cross.
 • I wish to post or advertise events, services, or offerings related to Whites Cross for free.
@@ -46,7 +44,7 @@ Users:
 • I'm curious about the significance of Whites Cross in a broader context.
 • I intend to use this as my primary source of information before visiting or organizing events in the area.
 
-Site Owner:
+### Site Owner:
 • I aim to champion and keep alive the rich cultural tapestry of Whites Cross.
 • I wish to foster a community spirit by allowing free postings and advertisements related to the area.
 • I aspire to make the website a comprehensive and trusted source of information for anything related to Whites Cross.
@@ -91,118 +89,7 @@ Contact Page
 Wire Diagram
 PP1 “Whites Cross” Wire Diagram
 
-About       Discover       Contact & Feedback
-
-WELCOME to Whites Cross
-Hover Pop Up Map
-
-All you need to know, Intro… etc, etc
-
-Display Style Dependant on Screen Size
-DISCOVER
-
-ADVERTISERS (Scrolling Left)
-
-KEYFAST
-Locksmiths
-
-Hennessys
-SHOP
-Brook
-Restaurant
-
-Murphys
-Rock
-Dunnes
-Stores
-
-EMERGENCY SERVICES
-
-AMBULANCE
-SERVICES
-GARDA
-FIRE
-DOCTORS
-
-EDUCATION - HEALTH - FITNESS
-
-GAA
-Soccer
-GYM
-
-KARATE
-
-SOCIAL & LEISURE
-
-KEYFAST
-Locksmiths
-
-Hennessys
-SHOP
-Brook
-Restaurant
-
-SHOPPING
-
-KEYFAST
-Locksmiths
-
-Hennessys
-SHOP
-Brook
-Restaurant
-
-SOCIAL LEISURE FITNESS
-
-KEYFAST
-Locksmiths
-
-Hennessys
-SHOP
-Brook
-Restaurant
-
-EMPLOYMENT
-
-TRU TEMPER
-MURJOY
-Brook
-Restaurant
-
-CONTACT & FEEDBACK
-
-Name:
-
-eMail:
-
-Phone:
-
-Company:
-
-Comments:
-
-Reason for Contact
-
-       [   ] Subscribe
-
-       [   ] Advertise
-
-       [   ] Feedback
-
-       [   ] Other
-
-
-       [   ] Agree to T&C’s
-
-       [   ] GDPR Policy
-
-CAPTCHA
-
-SUBMIT
-
-Footer with Social Links
-
-Copyright : T&C’s : GDPR etc
+<img src="assets/images/wx-readme-wiredia1.jpg">
 
 Surface
 Aim is to create a Country Blending with The City Theme.
