@@ -83,7 +83,7 @@ The website will:
 * Footer: Direct links to all active social media platforms, fostering deeper commu-nity ties and interactions.
 
 ### Wire Diagram
-! [PP1 “Whites Cross” Wire Diagram](assets/images/wx-readme-wiredia1.jpg>
+! [PP1 “Whites Cross” Wire Diagram](assets/images/wx-readme-wiredia1.jpg)
 
 ### Surface
 Aim is to create a Country Blending with The City Theme.
