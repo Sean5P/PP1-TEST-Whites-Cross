@@ -8,20 +8,11 @@ This website celebrates the heritage, culture, and significance of Whites Cross.
 
 <img src="assets/images/wx-readme-multiscreen1.jpg">
 
-
+![wx-readme-multiscreen1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/7edf3619-0103-462a-9cbe-ad73b6aed101)
 
 ## Project Repository
 
 Live Site
-![wx-readme-hero1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/79e2f247-85f4-4ac7-adfb-5bebf43935f6)
-![wx-readme-foot1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/53834edd-f31b-4efc-b308-70dfc0dce05d)
-![wx-readme-wiredia1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/a6601006-c6d6-4186-b363-f95ac10d295d)
-![wx-readme-test3](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/b03460c4-ccc8-45b1-8a54-5a1ee47e96f1)
-![wx-readme-test2](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/87fbe73c-e9d3-469b-bb54-20b032c26f7c)
-![wx-readme-test1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/f7aab9b9-a5a9-47e2-ab0e-e8e5432e7926)
-![wx-readme-nav1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/dd043d3e-2ad3-456b-8a90-1aaf8b709c76)
-![wx-readme-multiscreen1](https://github.com/Sean5P/PP1-Whites-Cross/assets/21021910/7edf3619-0103-462a-9cbe-ad73b6aed101)
-
 
 Table of contents
 
